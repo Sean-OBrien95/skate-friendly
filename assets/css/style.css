@@ -60,3 +60,11 @@ h2 {
     border-bottom: 1px solid;
     color: #00ff55;
 }
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 50%;
+    background: url("../images/side-view-female-s-leg-wearing-white-roller-skate-against-tree.jpg") no-repeat;
+}
