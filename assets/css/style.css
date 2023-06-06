@@ -9,4 +9,20 @@
 body {
     font-family: Montserrat, sans-serif;
     font-weight: 300;
+    color: #999999;
+}
+
+/* heading and logo */
+
+h1, h2 {
+    color: #00ff55;
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
