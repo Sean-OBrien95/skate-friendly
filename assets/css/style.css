@@ -14,7 +14,8 @@ body {
 
 /* heading and logo */
 
-h1, h2 {
+h1,
+h2 {
     color: #00ff55;
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
@@ -24,5 +25,38 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 400%;
+}
+
+/* navigation menu */
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu,
+#logo {
+    line-height: 80px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid;
+    color: #00ff55;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    border-bottom: 1px solid;
+    color: #00ff55;
 }
