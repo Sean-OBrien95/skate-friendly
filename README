@@ -1,0 +1,26 @@
+Project title: Skate friendly
+
+Description: This is my first project that will be done through the Code Institute focused on HTML5 and CSS3.
+The aim of this project is to create a website for a skating community group that is focused arounf beginners.
+This will give information on meetups, safetly tips, beginner tricks, brands and products, and include photograph and videos.
+This will have a CSS page and 4 HTML pages for Home, Tricks, Safety and FAQs, and a questionaire.
+
+The goal will be to make this website user friendly and accessable. To do this, I will create a clear flow of information on
+the website and will be making it readable.
+
+The colours that I plan to use in this are grey for text, white for background, and green for highlighted information.
+
+I will start by creating the first HTML page which will be the home page. On this page will feature general information about
+the group, some photographs, and details of the meetups. This will also include a navigation header, which will be present on all
+HTML documents.
+
+Next, I will create my CSS sheet, I will use this to style my various HTML sheets.
+
+I will then create 3 more HTML sheets, one for tricks, which will include descriptions of each trick, how to do them, photos,
+and videos for reference.
+
+The next HTML sheet will include information on safety, FAQs, and recommended products and brands. This will include photos
+and links.
+
+The final HTML sheet will be a questionaire/registration that will include a multiple choice selection asking how long they have 
+been skating, how they found out about the group, and what age group they are in.
