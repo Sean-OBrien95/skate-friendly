@@ -119,7 +119,7 @@ h2 {
 /* all about section styling */
 
 #all-about {
-    height: 600px;
+    height: 300px;
 }
 
 #all-about h1 {
@@ -174,4 +174,49 @@ hr {
     margin-left: 10px;
     line-height: 20px;
     margin-right: 50px;
+}
+
+/* meetup information */
+
+#meetup div {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 33.3%;
+    height: 250px;
+    float: left;
+    padding: 85px 0 0 10px;
+    text-align: center;
+    border: 3px solid white;
+    box-sizing: border-box;
+}
+
+#park {
+    background-image: url("../images/park-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#city {
+    background-image: url("../images/dublin-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#coast {
+    background-image: url("../images/coast-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#meetup h2 {
+    color: #fff;
 }
