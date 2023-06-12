@@ -16,7 +16,7 @@ body {
 
 h1,
 h2 {
-    color: #00ff55;
+    color: #BDE1EF;
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -48,7 +48,7 @@ h2 {
 
 #menu a:hover {
     border-bottom: 1px solid;
-    color: #00ff55
+    color: #BDE1EF;
 }
 
 #menu a {
@@ -58,7 +58,7 @@ h2 {
 
 .active {
     border-bottom: 1px solid;
-    color: #00ff55;
+    color: #BDE1EF;
 }
 
 /* hero image */
@@ -67,6 +67,12 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
@@ -91,4 +97,20 @@ h2 {
     to {
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: "Bebas Neue", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 350px;
+    height: 175px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(48, 82, 234, 0.2);
+    bottom: 65px;
+    right: 300px;
+    position: absolute;
 }
