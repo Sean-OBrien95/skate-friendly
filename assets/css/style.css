@@ -24,8 +24,9 @@ h2 {
 }
 
 #logo {
-    float: left;
     font-size: 400%;
+    float: left;
+    margin-left: 38%;
 }
 
 /* navigation menu */
@@ -113,4 +114,31 @@ h2 {
     bottom: 65px;
     right: 300px;
     position: absolute;
+}
+
+/* all about section styling */
+
+#all-about {
+    height: 600px;
+}
+
+#description {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: red
+}
+
+#confident {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+
+#benefits {
+    padding-top: 30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: blue;
 }
