@@ -63,10 +63,32 @@ h2 {
 
 /* hero image */
 
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
 #hero-image {
-    background: url("../images/roller-skate-home.jpeg") no-repeat;
-    height: 700px;
+    background: url("../images/roller-skate-home.jpg") no-repeat;
+    height: 600px;
     width: 100%;
     background-size: fill;
     background-position: center;
+
+    /* zoom effect when loading home page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* animation zoom */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
