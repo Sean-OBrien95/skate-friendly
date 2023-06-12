@@ -126,19 +126,46 @@ h2 {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: red
 }
 
 #confident {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: green;
 }
 
 #benefits {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: blue;
+}
+
+hr {
+    border-top: 1px solid #999999;
+    width: 100%;
+    margin: 4px 0;
+}
+
+.description-heading {
+    width: 80%;
+    float: left;
+    margin-left: 10px;
+    line-height: 20px;
+    margin-right: 50px;
+}
+
+.confident-heading {
+    width: 80%;
+    float: right;
+    margin-left: 10px;
+    line-height: 20px;
+    margin-right: 50px;
+}
+
+.benefits-heading {
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 10px;
+    line-height: 20px;
+    margin-right: 50px;
 }
