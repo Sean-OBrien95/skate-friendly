@@ -34,6 +34,7 @@ h2 {
 #menu {
     font-size: 150%;
     letter-spacing: 3px;
+    display: inline;
 }
 
 #menu li {
@@ -219,4 +220,25 @@ hr {
 
 #meetup h2 {
     color: #fff;
+}
+
+/* footer styles */
+
+footer {
+    height: 150px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 200%;
+    margin: 3%;
+    padding: 5%;
+    color: #999999
 }
