@@ -242,3 +242,56 @@ footer {
     padding: 5%;
     color: #999999
 }
+
+/* tricks page */
+
+#tricks-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#tricks-image {
+    height: 600px;
+    width: 100%;
+    background-size: fill;
+    background-position: center;
+
+
+    /* zoom effect when loading home page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* animation zoom */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+
+#tricks-head {
+    height: 300px;
+}
+
+#tricks-intro {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#tricks-intro h1 {
+    font-size: 300%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
