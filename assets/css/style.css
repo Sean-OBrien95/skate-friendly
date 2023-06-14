@@ -129,19 +129,19 @@ h2 {
     margin-top: 15px;
 }
 
-#description {
+.left-head {
     padding-top: 30px;
     width: 33%;
     float: left;
 }
 
-#confident {
+.right-head {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#benefits {
+.middle-head {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
@@ -153,7 +153,7 @@ hr {
     margin: 4px 0;
 }
 
-.description-heading {
+.left-col {
     width: 80%;
     float: left;
     margin-left: 10px;
@@ -161,7 +161,7 @@ hr {
     margin-right: 50px;
 }
 
-.confident-heading {
+.right-col {
     width: 80%;
     float: right;
     margin-left: 10px;
@@ -169,7 +169,7 @@ hr {
     margin-right: 50px;
 }
 
-.benefits-heading {
+.middle-col {
     width: 80%;
     margin: 0 auto;
     margin-left: 10px;
@@ -276,7 +276,6 @@ footer {
     }
 }
 
-
 #tricks-head {
     height: 200px;
 }
@@ -294,6 +293,10 @@ footer {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+#tricks-para {
+    padding-top: 20px;
 }
 
 /* trick descriptions and videos */
@@ -352,4 +355,27 @@ footer {
     to {
         transform: scale(1.1);
     }
+}
+
+#faq-head {
+    height: 200px;
+}
+
+#faq-intro {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#faq-intro h1 {
+    font-size: 300%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#faq-para {
+    padding-top: 20px;
 }
