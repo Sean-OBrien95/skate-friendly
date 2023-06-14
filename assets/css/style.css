@@ -225,7 +225,7 @@ hr {
 /* footer styles */
 
 footer {
-    height: 150px;
+    height: 200px;
 }
 
 .social-links {
@@ -278,7 +278,7 @@ footer {
 
 
 #tricks-head {
-    height: 300px;
+    height: 200px;
 }
 
 #tricks-intro {
@@ -297,3 +297,59 @@ footer {
 }
 
 /* trick descriptions and videos */
+
+.vid-desc {
+    text-align: center;
+    width: 80%;
+    padding-top: 20px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.vid-desc h2 {
+    font-size: 300%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.vid-desc p {
+    border-bottom: 15px;
+}
+
+.vids {
+    margin-top: 15px;
+}
+
+/* FAQ page styling */
+
+#faq-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#faq-image {
+    height: 600px;
+    width: 100%;
+    background-size: fill;
+    background-position: center;
+
+
+    /* zoom effect when loading home page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* animation zoom */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
