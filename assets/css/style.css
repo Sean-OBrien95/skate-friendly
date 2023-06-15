@@ -412,3 +412,14 @@ footer {
         transform: scale(1.1);
     }
 }
+
+#sign-up h1 {
+    font-size: 300%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#sub-form {
+    border: 1 1 1 1;
+}
