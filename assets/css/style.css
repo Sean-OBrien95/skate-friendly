@@ -429,10 +429,10 @@ footer {
 
 #sub-form {
     width: 30%;
-    height: 300px;
+    height: 350px;
     text-align: center;
     box-sizing: border-box;
-    padding: 12px 20px;
+    /*padding: 12px 20px;*/
     margin: 8px 0;
 }
 
@@ -441,4 +441,27 @@ input[type=email] {
     margin: 5px 0;
     border-radius: 5px;
     box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px 50px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border: 3px solid #BDE1EF;
+    border-radius: 5px;
+}
+
+#button {
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border: 3px solid #BDE1EF;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+#button:hover {
+    background-color: #BDE1EF;
+    color: white;
 }
