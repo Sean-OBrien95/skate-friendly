@@ -23,10 +23,13 @@ h2 {
     font-weight: 200;
 }
 
+header {}
+
 #logo {
     font-size: 400%;
-    float: left;
-    margin-left: 38%;
+    /*float: left;*/
+    display: flex;
+    justify-content: center;
 }
 
 /* navigation menu */
@@ -35,6 +38,7 @@ h2 {
     font-size: 150%;
     letter-spacing: 3px;
     display: inline;
+    float: right;
 }
 
 #menu li {
@@ -156,7 +160,7 @@ hr {
 .left-col {
     width: 80%;
     float: left;
-    margin-left: 10px;
+    margin-left: 20px;
     line-height: 20px;
     margin-right: 50px;
 }
@@ -322,6 +326,8 @@ footer {
 
 .vids {
     margin-top: 15px;
+    width: 560px;
+    height: 315px;
 }
 
 /* FAQ page styling */
@@ -361,7 +367,7 @@ footer {
     height: 200px;
 }
 
-#faq-intro {
+.faq-intro {
     width: 80%;
     margin: 0 auto;
     line-height: 20px;
@@ -369,14 +375,15 @@ footer {
     padding-top: 25px;
 }
 
-#faq-intro h1 {
+.faq-intro h1 {
     font-size: 300%;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding-top: 20px;
 }
 
-#faq-para {
+.faq-para {
     padding-top: 20px;
 }
 
