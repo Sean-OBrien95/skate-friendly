@@ -432,7 +432,6 @@ footer {
     height: 350px;
     text-align: center;
     box-sizing: border-box;
-    /*padding: 12px 20px;*/
     margin: 8px 0;
 }
 
@@ -464,4 +463,15 @@ input[type=submit] {
 #button:hover {
     background-color: #BDE1EF;
     color: white;
+}
+
+/* thank you page */
+
+#thanks {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#thanks h1 {
+    font-size: 400%;
 }
