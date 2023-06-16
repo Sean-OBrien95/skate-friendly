@@ -413,13 +413,32 @@ footer {
     }
 }
 
-#sign-up h1 {
+#sign-up {
+    display: flex;
+    justify-content: center;
+}
+
+#cont-head {
     font-size: 300%;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 #sub-form {
-    border: 1 1 1 1;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=text],
+input[type=email] {
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.15);
 }
