@@ -25,9 +25,12 @@ h2 {
 
 #logo {
     font-size: 400%;
-    /*float: left;*/
-    display: flex;
-    justify-content: center;
+    float: left;
+    margin-left: 15px;
+}
+
+header a {
+    text-decoration: none;
 }
 
 /* navigation menu */
@@ -35,14 +38,12 @@ h2 {
 #menu {
     font-size: 150%;
     letter-spacing: 3px;
-    display: inline;
-    float: right;
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 20px;
+    float: right;
 }
 
 #menu,
@@ -187,7 +188,7 @@ hr {
     width: 33.3%;
     height: 250px;
     float: left;
-    padding: 85px 0 0 10px;
+    padding: 120px 0 0 10px;
     text-align: center;
     border: 3px solid white;
     box-sizing: border-box;
@@ -479,4 +480,27 @@ input[type=submit] {
 
 #thanks h1 {
     font-size: 400%;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+    #all-about {
+        width: 65%;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    .left-head,
+    .middle-head,
+    .right-head {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    hr {
+        display: none;
+    }
 }
