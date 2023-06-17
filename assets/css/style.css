@@ -491,6 +491,7 @@ input[type=submit] {
         width: 65%;
         height: 600px;
         margin: 0 auto;
+        padding: 0;
     }
 
     .left-head,
@@ -502,6 +503,13 @@ input[type=submit] {
         margin-top: 15px;
     }
 
+    #meetup>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
@@ -511,7 +519,7 @@ input[type=submit] {
 
 @media screen and (max-width: 950px) {
     #menu {
-        clear: left;
+        clear: both;
         float: left;
         margin-bottom: 5px;
         line-height: 20px;
