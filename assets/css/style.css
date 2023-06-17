@@ -484,6 +484,8 @@ input[type=submit] {
 
 /* media queries */
 
+/* tablet size screens 1200px and down */
+
 @media screen and (max-width: 1200px) {
     #all-about {
         width: 65%;
@@ -502,5 +504,50 @@ input[type=submit] {
 
     hr {
         display: none;
+    }
+}
+
+/* for smaller mobile size 950px down */
+
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-bottom: 5px;
+        line-height: 20px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #all-about {
+        width: 90%;
+        height: 700px;
+        margin: auto 0;
+    }
+
+    .left-head,
+    .middle-head,
+    .right-head {
+        width: inherit;
+        margin: 0 auto;
+        padding-top: 15px;
+    }
+
+    .left-head h2,
+    .middle-head h2,
+    .right-head h2,
+    .right-head p a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-head p,
+    .middle-head p,
+    .right-head p,
+    .right-head p a {
+        padding: 0 15px;
+        text-align: center;
     }
 }
