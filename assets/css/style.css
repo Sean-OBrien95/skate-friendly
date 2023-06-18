@@ -248,19 +248,12 @@ footer {
 
 /* tricks page */
 
-#tricks-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
 #tricks-image {
+    background: url("../images/tricks-image.jpg") no-repeat;
     height: 600px;
     width: 100%;
-    background-size: fill;
+    background-size: cover;
     background-position: center;
-
 
     /* zoom effect when loading home page */
     animation-name: hero-zoom;
@@ -278,6 +271,7 @@ footer {
         transform: scale(1.1);
     }
 }
+
 
 #tricks-head {
     height: 200px;
@@ -331,34 +325,27 @@ footer {
 
 /* FAQ page styling */
 
-#faq-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
 #faq-image {
+    background: url("../images/faq-image.jpg") no-repeat;
     height: 600px;
     width: 100%;
     background-size: fill;
     background-position: center;
 
-
     /* zoom effect when loading home page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-}
 
-/* animation zoom */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
+    /* animation zoom */
+    @keyframes hero-zoom {
+        from {
+            transform: scale(1);
+        }
 
-    to {
-        transform: scale(1.1);
+        to {
+            transform: scale(1.1);
+        }
     }
 }
 
@@ -388,34 +375,40 @@ footer {
 
 /* contact page */
 
-#contact-background {
+.background-style {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#contact-photo {
-    background: url("../images/contact-photo.jpg") no-repeat;
+.photo-style {
     height: 600px;
     width: 100%;
     background-size: fill;
     background-position: center;
+}
 
-    /* zoom effect when loading home page */
+/* zoom effect when loading home page */
+#contact-photo {
+    height: 600px;
+    width: 100%;
+    background: url("../images/contact-photo.jpg") no-repeat;
+    background-size: fill;
+    background-position: center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-}
 
-/* animation zoom */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
+    /* animation zoom */
+    @keyframes hero-zoom {
+        from {
+            transform: scale(1);
+        }
 
-    to {
-        transform: scale(1.1);
+        to {
+            transform: scale(1.1);
+        }
     }
 }
 
@@ -487,6 +480,8 @@ input[type=submit] {
 /* tablet size screens 1200px and down */
 
 @media screen and (max-width: 1200px) {
+
+    /*home page*/
     #all-about {
         width: 65%;
         height: 600px;
@@ -497,10 +492,12 @@ input[type=submit] {
     .left-head,
     .middle-head,
     .right-head {
+        height: 200px;
         width: 100%;
         float: left;
         padding: 0;
         margin-top: 15px;
+        text-align: center;
     }
 
     #meetup>div {
@@ -512,6 +509,13 @@ input[type=submit] {
 
     hr {
         display: none;
+    }
+
+    /*faq page*/
+
+    #faq-intro,
+    #faq-para {
+        padding: 10px 0;
     }
 }
 
