@@ -513,29 +513,17 @@ input[type=submit] {
         margin: auto;
     }
 
-    .left-head h2,
-    .middle-head h2,
-    .right-head h2,
-    .right-head p a {
-        width: 100%;
-        text-align: center;
-        float: none;
-    }
-
-    .left-head p,
-    .middle-head p,
-    .right-head p,
-    .right-head p a {
-        padding: 0 15px;
-        text-align: center;
-        float: none;
-    }
-
     /*vids on trick page*/
 
     .vids {
         height: 168.75px;
         width: 300px;
+    }
+
+    .head,
+    .intro {
+        height: 300px;
+        width: 100%;
     }
 }
 
@@ -544,5 +532,14 @@ input[type=submit] {
 @media screen and (max-width: 600px) {
     #all-about {
         height: 900px;
+    }
+
+    .intro {
+        line-height: 1.5;
+        margin-bottom: 150px;
+    }
+
+    #bubble {
+        margin-top: 150px;
     }
 }
