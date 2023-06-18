@@ -453,20 +453,24 @@ input[type=submit] {
     /*home page*/
     #all-about {
         width: 65%;
-        height: 600px;
-        margin: 0 auto;
+        height: 800px;
+        margin: auto;
         padding: 0;
     }
 
     .left-head,
     .middle-head,
-    .right-head {
-        height: 200px;
-        width: 100%;
-        float: left;
-        padding: 0;
-        margin-top: 15px;
+    .right-head,
+    .vid-desc {
+        width: inherit;
+        margin: 0 auto;
+        float: none;
+        padding-top: 15px;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     #meetup>div {
@@ -482,18 +486,18 @@ input[type=submit] {
 
     /*faq page*/
 
-    #faq-intro,
-    #faq-para {
+    .intro,
+    .para {
         padding: 10px 0;
     }
 }
 
-/* for smaller mobile size 950px down */
+/* for smaller tablet size 950px down */
 
 @media screen and (max-width: 950px) {
     #menu {
         clear: both;
-        float: left;
+        float: none;
         margin-bottom: 5px;
         line-height: 20px;
     }
@@ -505,15 +509,8 @@ input[type=submit] {
     #all-about {
         width: 90%;
         height: 700px;
-        margin: auto 0;
-    }
-
-    .left-head,
-    .middle-head,
-    .right-head {
-        width: inherit;
-        margin: 0 auto;
-        padding-top: 15px;
+        float: none;
+        margin: auto;
     }
 
     .left-head h2,
@@ -522,6 +519,7 @@ input[type=submit] {
     .right-head p a {
         width: 100%;
         text-align: center;
+        float: none;
     }
 
     .left-head p,
@@ -530,5 +528,21 @@ input[type=submit] {
     .right-head p a {
         padding: 0 15px;
         text-align: center;
+        float: none;
+    }
+
+    /*vids on trick page*/
+
+    .vids {
+        height: 168.75px;
+        width: 300px;
+    }
+}
+
+/* for mobile screen 600px and down */
+
+@media screen and (max-width: 600px) {
+    #all-about {
+        height: 900px;
     }
 }
