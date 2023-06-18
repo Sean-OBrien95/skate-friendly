@@ -68,11 +68,18 @@ header a {
 
 /* hero image */
 
-#hero-outer {
+.background-style {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
+}
+
+.photo-style {
+    height: 600px;
+    width: 100%;
+    background-size: fill;
+    background-position: center;
 }
 
 #cover-text,
@@ -84,7 +91,7 @@ header a {
     background: url("../images/roller-skate-home.jpg") no-repeat;
     height: 600px;
     width: 100%;
-    background-size: fill;
+    background-size: cover;
     background-position: center;
 
     /* zoom effect when loading home page */
@@ -188,7 +195,7 @@ hr {
     width: 33.3%;
     height: 250px;
     float: left;
-    padding: 120px 0 0 10px;
+    padding: 80px 0 0 10px;
     text-align: center;
     border: 3px solid white;
     box-sizing: border-box;
@@ -272,30 +279,6 @@ footer {
     }
 }
 
-
-#tricks-head {
-    height: 200px;
-}
-
-#tricks-intro {
-    width: 80%;
-    margin: 0 auto;
-    line-height: 20px;
-    text-align: center;
-    padding-top: 25px;
-}
-
-#tricks-intro h1 {
-    font-size: 300%;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-#tricks-para {
-    padding-top: 20px;
-}
-
 /* trick descriptions and videos */
 
 .vid-desc {
@@ -349,11 +332,11 @@ footer {
     }
 }
 
-#faq-head {
+.head {
     height: 200px;
 }
 
-.faq-intro {
+.intro {
     width: 80%;
     margin: 0 auto;
     line-height: 20px;
@@ -361,7 +344,7 @@ footer {
     padding-top: 25px;
 }
 
-.faq-intro h1 {
+.intro h1 {
     font-size: 300%;
     text-align: center;
     margin-top: 15px;
@@ -369,25 +352,11 @@ footer {
     padding-top: 20px;
 }
 
-.faq-para {
+.para {
     padding-top: 20px;
 }
 
 /* contact page */
-
-.background-style {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-.photo-style {
-    height: 600px;
-    width: 100%;
-    background-size: fill;
-    background-position: center;
-}
 
 /* zoom effect when loading home page */
 #contact-photo {
