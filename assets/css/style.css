@@ -423,6 +423,7 @@ input[type=submit] {
 #button:hover {
     background-color: #BDE1EF;
     color: white;
+    cursor: pointer;
 }
 
 /* thank you page */
