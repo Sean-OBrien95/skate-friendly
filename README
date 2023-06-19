@@ -1,29 +1,106 @@
 Project title: Skate friendly
 
 Description: This is my first project that will be done through the Code Institute focused on HTML5 and CSS3.
-The aim of this project is to create a website for a skating community group that is focused arounf beginners.
+The aim of this project is to create a website for a skating community group that is focused around beginners.
 This will give information on meetups, safetly tips, beginner tricks, brands and products, and include photograph and videos.
-This will have a CSS page and 4 HTML pages for Home, Tricks, Safety and FAQs, and a questionaire.
+This will have a CSS page and 4 HTML pages for Home, Tricks, Safety and FAQs, and a contact questionaire that will take you to a thank you page when complete..
 
 The goal will be to make this website user friendly and accessable. To do this, I will create a clear flow of information on
 the website and will be making it readable.
 
-The colours that I plan to use in this are grey for text, white for background, and green for highlighted information.
-
-I will start by creating the first HTML page which will be the home page. On this page will feature general information about
-the group, some photographs, and details of the meetups. This will also include a navigation header, which will be present on all
+I started by creating the first HTML page is the home page. This page features general information about
+the group, a hero image, and details of the meetups. This also includes a navigation header, which will be present on all
 HTML documents.
 
-Next, I will create my CSS sheet, I will use this to style my various HTML sheets.
-
-I will then create 3 more HTML sheets, one for tricks, which will include descriptions of each trick, how to do them, photos,
+I then created 3 more HTML sheets, one for tricks, which will include descriptions of each trick, how to do them, a hero image,
 and videos for reference.
 
-The next HTML sheet will include information on safety, FAQs, and recommended products and brands. This will include photos
+The next HTML sheet will include information on safety, FAQs, and recommended products and brands. This will include a hero image
 and links.
 
-The final HTML sheet will be a questionaire/registration that will include a multiple choice selection asking how long they have 
-been skating, how they found out about the group, and what age group they are in.
+The final HTML sheet is a questionaire/registration that includes a multiple choice selection asking how long you have 
+been skating. This page will also take you to a redirect thank you page.
+
+Design choices:
+
+Home: 
+
+I had initally created the hero image on my home page with some text and a zoom effect. Originally, this was going to be the only page 
+with a hero image but decided for consistency it would look better if each page had there own, bar the thank you page.
+I had initally done a mix of background and img tags, but felt using a background for all would be better.
+
+For the hero image, I decided on a pastel colour of skates as I felt this made what the page was about instantly recognisable.
+
+The colours that I initally planned to use in this are grey for text, white for background, and green for highlighted information.
+I changed this the green for highlight fairly early on in design, as I felt a pale blue colour suited the imagery better.
+
+I had styled the logo and nav bar to go on every page. Initially, I had the logo centered on the page, but thought it would better
+over at the left-hand corner. I also designed the logo as a link that would take you back to the home page. All options
+on the nav menu also have a border line appear underneath to clearly show which page you are about to click,
+while this is always present under the page you are on currently.
+
+I had decided to design 3 columns for the Home page as I felt this was an easily digestable way to view
+all the presented content. This was used again on the FAQ page in 3 seperate rows.
+
+I then designed the meetup section below. This was designed to show 3 different environments to represent the different
+skate locations. It also includes times, days, and locations.
+
+The footer was designed to show evenly spaced links to social media pages. They all take you 
+to the home page of each platform.
+
+Tricks: 
+
+I wanted to design this section in a way that would not be overwhelming to the user,
+so for this page I created a single column style where they could view each trick,
+with them getting progressively more difficult as you go further down.
+
+None of them play automatically and once played you can control volume.
+
+FAQ:
+
+The FAQ section is broken down into 3 sections: FAQ, Safety, and Equipment. Each of these are then
+further broken down into 3 pieces of information, displayed horizontally.
+
+The FAQ section includes a link that will take you to the contact page, and the Safety and Equipment sections
+take you to a new page by opening a new link to view products.
+
+Contact:
+
+This page is a contact/registration form. On this page I designed a simple form that is easy to use.
+I had styled this by creating clear, rounded borders and then applying a shadow effect to clearly see the content.
+I had also removed the tags outside the boxes and had what the form required inside the form elements
+that disappear when you start to type.
+
+I had then created a radio dial with multiple choices for you to select how long you have been skating.
+
+Finally, I created a submit button that changes colour when hovered over to match the overall
+colour scheme. 
+
+All pages have been designed with media queries for responsiveness
+
+Bugs:
+
+My first bug was getting the hero image to fit correctly, this was solved by setting the background size to cover 
+and the background position to center to get it to display correctly. I had also changed the size of the image to a smaller one.
+Prior to this, the background was focused on parts of the photo that looked irrelavent to the content.
+
+The second bug I encountered was when I was adding the videos to my tricks page. The content was overlapping with my footer and
+took up a lot of space on the page. I realised I had set a very short height for my videos to fit into which made it overlap with the footer.
+When I removed the height, it started to work as expected.
+
+The third bug I cam across was when I was designing the FAQ page. One of the links in the footer was appearing 
+far higher on the page then the rest. On some examination, the reason for this was I had not properly closed one of my tags.
+Once this was fixed the footer was behaving as expected.
+
+The fourth bug I encountered was when I was starting to take responsiveness into consideration.
+I had my logo pushed over to the center of the page through padding and knew this would not work for responsiveness.
+I also noticed that if it was centered this would negatively effect the nav menu as they would overlap.
+I fixed this by moving my logo over to the left hand side using a float.
+
+The fifth bug I came across was when I decided to change the image on my Tricks page. The image was appearing totally blank
+but upon closer examination I had realised I had entered the wrong file path. Once I fixed this, it was working as expected.
+
+Credit:
 
 Picture credit 1 (hero image): Image by Katya Wolf: https://www.pexels.com/photo/a-roller-skater-tying-the-lace-8733401/
 
@@ -37,5 +114,16 @@ Coast line photo: Photo by Nati: https://www.pexels.com/photo/scenic-view-of-sea
 
 photo on tricks page: Photo by Laura Stanley: https://www.pexels.com/photo/white-and-red-roller-skates-2005992/
 
-
 photo on faq page: Photo by RDNE Stock project: https://www.pexels.com/photo/woman-in-pink-tank-top-and-white-shorts-sitting-on-gray-concrete-road-7335426/ 
+
+photo on contact page: Photo by RDNE Stock project: https://www.pexels.com/photo/woman-sitting-on-green-grass-wearing-roller-skates-7335209/ 
+
+Youtube videos from moxie roller skates https://www.youtube.com/watch?v=s56SKfk9608
+and queer girl straight skates https://www.youtube.com/watch?v=tKkdItBQM9U https://www.youtube.com/watch?v=nUm9hZ7Xbf8 
+
+I had learned some commands from the following websites:
+
+Flex commands: https://stackoverflow.com/questions/38948102/center-one-and-right-left-align-other-flexbox-element 
+Using transition fade on submit button: https://www.w3schools.com/csS/css3_buttons.asp 
+Applying shadow effect to contact form: https://blog.logrocket.com/how-to-style-forms-with-css-a-beginners-guide/ 
+

@@ -332,10 +332,6 @@ footer {
     }
 }
 
-.head {
-    height: 200px;
-}
-
 .intro {
     width: 80%;
     margin: 0 auto;
@@ -352,9 +348,9 @@ footer {
     padding-top: 20px;
 }
 
-.para {
+/* .para {
     padding-top: 20px;
-}
+} */
 
 /* contact page */
 
@@ -520,9 +516,8 @@ input[type=submit] {
         width: 300px;
     }
 
-    .head,
     .intro {
-        height: 300px;
+        height: 150px;
         width: 100%;
     }
 }
@@ -531,12 +526,12 @@ input[type=submit] {
 
 @media screen and (max-width: 600px) {
     #all-about {
-        height: 900px;
+        height: 800px;
     }
 
     .intro {
         line-height: 1.5;
-        margin-bottom: 150px;
+        height: 250px;
     }
 
     #bubble {
