@@ -348,10 +348,6 @@ footer {
     padding-top: 20px;
 }
 
-/* .para {
-    padding-top: 20px;
-} */
-
 /* contact page */
 
 /* zoom effect when loading home page */
@@ -482,8 +478,7 @@ input[type=submit] {
 
     /*faq page*/
 
-    .intro,
-    .para {
+    .intro {
         padding: 10px 0;
     }
 }
