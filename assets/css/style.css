@@ -505,6 +505,10 @@ input[type=submit] {
         margin: auto;
     }
 
+    #menu {
+        padding-bottom: 30px;
+    }
+
     /*vids on trick page*/
 
     .vids {
@@ -515,6 +519,10 @@ input[type=submit] {
     .intro {
         height: 150px;
         width: 100%;
+    }
+
+    .vid-desc {
+        margin: 30px;
     }
 }
 
@@ -534,12 +542,22 @@ input[type=submit] {
     }
 
     .intro {
-        line-height: 1.5;
-        height: 250px;
+        height: 200px;
+        padding-bottom: 5px;
+    }
+
+    .intro h1 {
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 50px
+    }
+
+    .intro p {
+        margin: 20px;
     }
 
     #bubble {
-        margin-top: 150px;
+        margin-top: 50px;
     }
 }
 
@@ -548,6 +566,19 @@ input[type=submit] {
 @media screen and (max-width: 480px) {
     #all-about {
         height: 850px;
+    }
+
+    #menu li {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #bubble {
+        margin-top: 90px;
+    }
+
+    .vid-desc h2 {
+        line-height: 50px;
     }
 }
 
