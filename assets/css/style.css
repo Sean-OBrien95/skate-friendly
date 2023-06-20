@@ -376,6 +376,7 @@ footer {
 #sign-up {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 #cont-head {
@@ -388,7 +389,8 @@ footer {
 }
 
 #sub-form {
-    width: 30%;
+    width: 90%;
+    max-width: 400px;
     height: 350px;
     text-align: center;
     box-sizing: border-box;
@@ -424,6 +426,10 @@ input[type=submit] {
     background-color: #BDE1EF;
     color: white;
     cursor: pointer;
+}
+
+::placeholder {
+    text-align: center;
 }
 
 /* thank you page */
@@ -493,14 +499,12 @@ input[type=submit] {
     }
 
     .intro h1 {
-        /* line-height: 50px; */
         margin-bottom: 50px
     }
 
     .intro p {
         margin: 20px;
     }
-
 
     /* for smaller tablet size 950px down */
 
@@ -525,6 +529,10 @@ input[type=submit] {
 
         #menu {
             padding-bottom: 30px;
+        }
+
+        #park {
+            margin-top: 30px;
         }
 
         /*vids on trick page*/
