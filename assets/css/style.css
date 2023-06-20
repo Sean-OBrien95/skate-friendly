@@ -446,7 +446,7 @@ input[type=submit] {
     /*home page*/
     #all-about {
         width: 65%;
-        height: 720px;
+        height: 700px;
         margin: auto;
         padding: 0;
     }
@@ -473,6 +473,15 @@ input[type=submit] {
         padding: 0;
     }
 
+    .left-col h2,
+    .middle-col h2,
+    .right-col h2,
+    .left-col p,
+    .middle-col p,
+    .right-col p {
+        padding-bottom: 20px;
+    }
+
     hr {
         display: none;
     }
@@ -482,73 +491,9 @@ input[type=submit] {
     .intro {
         padding: 10px 0;
     }
-}
-
-/* for smaller tablet size 950px down */
-
-@media screen and (max-width: 950px) {
-    #menu {
-        clear: both;
-        float: none;
-        margin-bottom: 5px;
-        line-height: 20px;
-    }
-
-    #cover-text {
-        left: 0;
-    }
-
-    #all-about {
-        width: 90%;
-        height: 530px;
-        float: none;
-        margin: auto;
-    }
-
-    #menu {
-        padding-bottom: 30px;
-    }
-
-    /*vids on trick page*/
-
-    .vids {
-        height: 168.75px;
-        width: 300px;
-    }
-
-    .intro {
-        height: 150px;
-        width: 100%;
-    }
-
-    .vid-desc {
-        margin: 30px;
-    }
-}
-
-/* for tablet screens 700px and down */
-
-@media screen and (max-width: 700px) {
-    #all-about {
-        height: 650px;
-    }
-}
-
-/* for mobile screen 600px and down */
-
-@media screen and (max-width: 600px) {
-    #all-about {
-        height: 750px;
-    }
-
-    .intro {
-        height: 200px;
-        padding-bottom: 5px;
-    }
 
     .intro h1 {
-        height: 50px;
-        line-height: 50px;
+        /* line-height: 50px; */
         margin-bottom: 50px
     }
 
@@ -556,36 +501,105 @@ input[type=submit] {
         margin: 20px;
     }
 
-    #bubble {
-        margin-top: 50px;
+
+    /* for smaller tablet size 950px down */
+
+    @media screen and (max-width: 950px) {
+        #menu {
+            clear: both;
+            float: none;
+            margin-bottom: 5px;
+            line-height: 20px;
+        }
+
+        #cover-text {
+            left: 0;
+        }
+
+        #all-about {
+            width: 90%;
+            height: 530px;
+            float: none;
+            margin: auto;
+        }
+
+        #menu {
+            padding-bottom: 30px;
+        }
+
+        /*vids on trick page*/
+
+        .vids {
+            height: 168.75px;
+            width: 300px;
+        }
+
+        .intro {
+            height: 150px;
+            width: 100%;
+        }
+
+        .vid-desc {
+            margin: 30px;
+        }
     }
-}
 
-/* for mobile screens 480px and down */
+    /* for tablet screens 700px and down */
 
-@media screen and (max-width: 480px) {
-    #all-about {
-        height: 850px;
+    @media screen and (max-width: 700px) {
+        #all-about {
+            height: 650px;
+        }
     }
 
-    #menu li {
-        padding-top: 15px;
-        padding-bottom: 15px;
+    /* for mobile screen 600px and down */
+
+    @media screen and (max-width: 600px) {
+        #all-about {
+            height: 750px;
+        }
+
+        .intro {
+            height: 200px;
+            padding-bottom: 5px;
+        }
+
+        .intro h1 {
+            height: 50px;
+            line-height: 50px;
+            margin-bottom: 50px
+        }
+
+        #bubble {
+            margin-top: 50px;
+        }
     }
 
-    #bubble {
-        margin-top: 90px;
+    /* for mobile screens 480px and down */
+
+    @media screen and (max-width: 480px) {
+        #all-about {
+            height: 850px;
+        }
+
+        #menu li {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+
+        #bubble {
+            margin-top: 90px;
+        }
+
+        .vid-desc h2 {
+            line-height: 50px;
+        }
     }
 
-    .vid-desc h2 {
-        line-height: 50px;
-    }
-}
+    /* for mobile screens 436px and down */
 
-/* for mobile screens 436px and down */
-
-@media screen and (max-width: 436px) {
-    #all-about {
-        height: 1000px;
+    @media screen and (max-width: 436px) {
+        #all-about {
+            height: 1000px;
+        }
     }
-}
