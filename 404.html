@@ -7,21 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Skate Friendly community group for beginner skaters based in Dublin, Ireland">
     <meta name="keywords" content="skate friendly, beginner skater, skating group, Dublin, Ireland">
+    <!--redirect from page to home-->
+    <meta http-equiv="refresh" content="5; url=index.html">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Skate Friendly</title>
     <link rel="icon" type="image/png" href="assets/images/fav-icon.png">
 </head>
 
 <body>
-    <!--logo and nav menu-->
     <header>
+        <!--section for nav menu-->
         <a href="index.html">
             <h1 id="logo">Skate Friendly</h1>
         </a>
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="contact.html" class="active">Contact</a>
+                    <a href="contact.html">Contact</a>
                 </li>
                 <li>
                     <a href="faq.html">FAQ</a>
@@ -30,56 +32,19 @@
                     <a href="tricks.html">Tricks</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html" class="active">Home</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <!--main image for this page-->
-    <section class="background-style">
-        <div class="photo-style" id="contact-photo"></div>
-    </section>
-    <!--contact form-->
-    <h1 id="cont-head">Contact us!</h1>
-    <section id="sign-up">
-        <form action="thanks.html" id="sub-form">
-            <div>
-                <label for="first-name"></label>
-                <input id="first-name" type="text" name="first_name" placeholder="First Name" required>
-            </div>
-            <div>
-                <label for="last-name"></label>
-                <input id="last-name" type="text" name="last_name" placeholder="Last Name" required>
-            </div>
-            <div>
-                <label for="email-field"></label>
-                <input id="email-field" type="email" name="email" placeholder="Email Address" required>
-            </div>
-            <br>
-            <p>How long have you been skating?</p>
-            <br>
-            <div>
-                <label for="0m">No experience</label>
-                <input id="0m" type="radio" value="0m" name="exp" required>
-            </div>
-            <div>
-                <label for="0-3m">0 - 3 months</label>
-                <input id="0-3m" type="radio" value="0-3m" name="exp" required>
-            </div>
-            <div>
-                <label for="3-6m">3 - 6 months</label>
-                <input id="3-6m" type="radio" value="3-6m" name="exp" required>
-            </div>
-            <div>
-                <label for="6m">6+ months</label>
-                <input id="6m" type="radio" value="6m" name="exp" required>
-            </div>
-            <br>
-            <div>
-                <input type="submit" id="button">
-            </div>
-        </form>
-    </section>
+    <!--error message-->
+    <div class="thanks">
+        <h1>404 Error, Page Not found</h1>
+        <br>
+        <p>Oops, it seems the page you're looking for doesn't exist!</p>
+        <br>
+        <p>You will be redirected to the home page in 5 seconds.</p>
+    </div>
     <!--footer-->
     <footer>
         <ul class="social-links">

@@ -434,12 +434,12 @@ input[type=submit] {
 
 /* thank you page */
 
-#thanks {
+.thanks {
     padding-top: 100px;
     text-align: center;
 }
 
-#thanks h1 {
+.thanks h1 {
     font-size: 400%;
 }
 
@@ -509,109 +509,110 @@ input[type=submit] {
     .intro p {
         margin: 20px;
     }
+}
 
-    /* for smaller tablet size 950px down */
+/* for smaller tablet size 950px down */
 
-    @media screen and (max-width: 950px) {
-        #menu {
-            clear: both;
-            float: none;
-            margin-bottom: 5px;
-            line-height: 20px;
-        }
-
-        #cover-text {
-            left: 0;
-        }
-
-        #all-about {
-            width: 90%;
-            height: 530px;
-            float: none;
-            margin: auto;
-        }
-
-        #menu {
-            padding-bottom: 30px;
-        }
-
-        /*vids on trick page*/
-
-        .vids {
-            height: 168.75px;
-            width: 300px;
-        }
-
-        .intro {
-            height: 150px;
-            width: 100%;
-        }
-
-        .vid-desc {
-            margin: 30px;
-        }
+@media screen and (max-width: 950px) {
+    #menu {
+        clear: both;
+        float: none;
+        margin-bottom: 5px;
+        line-height: 20px;
     }
 
-    /* for tablet screens 700px and down */
-
-    @media screen and (max-width: 700px) {
-        #all-about {
-            height: 650px;
-        }
-
-        #bubble {
-            padding-top: 10px;
-        }
+    #cover-text {
+        left: 0;
     }
 
-    /* for mobile screen 600px and down */
-
-    @media screen and (max-width: 600px) {
-        #all-about {
-            height: 750px;
-        }
-
-        .intro {
-            height: 200px;
-            padding-bottom: 5px;
-        }
-
-        .intro h1 {
-            height: 50px;
-            line-height: 50px;
-            margin-bottom: 50px
-        }
-
-        #bubble {
-            margin-top: 50px;
-        }
+    #all-about {
+        width: 90%;
+        height: 530px;
+        float: none;
+        margin: auto;
     }
 
-    /* for mobile screens 480px and down */
-
-    @media screen and (max-width: 480px) {
-        #all-about {
-            height: 850px;
-        }
-
-        #menu li {
-            padding-top: 15px;
-            padding-bottom: 15px;
-        }
-
-        #bubble {
-            margin-top: 90px;
-        }
-
-        .vid-desc h2 {
-            line-height: 50px;
-        }
+    #menu {
+        padding-bottom: 30px;
     }
 
-    /* for mobile screens 436px and down */
+    /*vids on trick page*/
 
-    @media screen and (max-width: 436px) {
-        #all-about {
-            height: 1000px;
-        }
+    .vids {
+        height: 168.75px;
+        width: 300px;
     }
+
+    .intro {
+        height: 150px;
+        width: 100%;
+    }
+
+    .vid-desc {
+        margin: 30px;
+    }
+}
+
+/* for tablet screens 700px and down */
+
+@media screen and (max-width: 700px) {
+    #all-about {
+        height: 650px;
+    }
+
+    #bubble {
+        padding-top: 10px;
+    }
+}
+
+/* for mobile screen 600px and down */
+
+@media screen and (max-width: 600px) {
+    #all-about {
+        height: 750px;
+    }
+
+    .intro {
+        height: 200px;
+        padding-bottom: 5px;
+    }
+
+    .intro h1 {
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 50px
+    }
+
+    #bubble {
+        margin-top: 50px;
+    }
+}
+
+/* for mobile screens 480px and down */
+
+@media screen and (max-width: 480px) {
+    #all-about {
+        height: 850px;
+    }
+
+    #menu li {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #bubble {
+        margin-top: 90px;
+    }
+
+    .vid-desc h2 {
+        line-height: 50px;
+    }
+}
+
+/* for mobile screens 436px and down */
+
+@media screen and (max-width: 436px) {
+    #all-about {
+        height: 1000px;
+    }
+}
