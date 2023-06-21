@@ -88,7 +88,7 @@ header a {
 }
 
 #hero-image {
-    background: url("../images/roller-skate-home.jpg") no-repeat;
+    background: url("../images/roller-skate-home.webp") no-repeat;
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -202,7 +202,7 @@ hr {
 }
 
 #park {
-    background-image: url("../images/park-photo.jpg");
+    background-image: url("../images/park-photo.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -211,7 +211,7 @@ hr {
 }
 
 #city {
-    background-image: url("../images/dublin-photo.jpg");
+    background-image: url("../images/dublin-photo.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -220,7 +220,7 @@ hr {
 }
 
 #coast {
-    background-image: url("../images/coast-photo.jpg");
+    background-image: url("../images/coast-photo.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -256,7 +256,7 @@ footer {
 /* tricks page */
 
 #tricks-image {
-    background: url("../images/tricks-image.jpg") no-repeat;
+    background: url("../images/tricks-image.webp") no-repeat;
     height: 600px;
     width: 100%;
     background-size: cover;
@@ -309,7 +309,7 @@ footer {
 /* FAQ page styling */
 
 #faq-image {
-    background: url("../images/faq-image.jpg") no-repeat;
+    background: url("../images/faq-image.webp") no-repeat;
     height: 600px;
     width: 100%;
     background-size: fill;
@@ -354,7 +354,7 @@ footer {
 #contact-photo {
     height: 600px;
     width: 100%;
-    background: url("../images/contact-photo.jpg") no-repeat;
+    background: url("../images/contact-photo.webp") no-repeat;
     background-size: fill;
     background-position: center;
     animation-name: hero-zoom;
