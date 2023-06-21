@@ -1,37 +1,22 @@
-Welcome,
+# Skate Friendly
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Skate Friendly is a site that that is aimed at people who have recently started skating and want to join a community group to skate with, or people who are interested in starting skating based in Dublin, Ireland. This website aims to help them by showing them how to do basic tricks, showing them times and places they can meet other skaters, recommending equipment and safety tips, as well as allowing them to get in contact with the group directly.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+Skate Friendly is ultimately a one stop website that will have all the crucial information for beginner skaters to get more comfortable on skates and show them all the crucial information they will need to know such as how to stay safe.
 
-## Codeanywhere Reminders
+# Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+In this section I will be covering the various features I have implemented, who I had in mind when creating them, and why they are useful. This project will have a total of 6 html sheets, as well as a css sheet. There will be a html for the Home page, the Tricks page, the FAQ page, the Contact page, as well as one Thank You page and 404 Error page.
 
-`python3 -m http.server`
+In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Navigation Bar
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- The navigation bar and logo
 
-`http_server`
+Featured on all six pages, the navigation bar which will always appear at the top of the page features a link to the home page, a link to the tricks page, one to the faq page, and one for the contact page.
+This was created to help the user flow of the website and allow the user to jump between each section at will without having to rely on back commands from the browser. The logo also acts as a home button if the user would like to use that.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Photo of just the navigation bar](images/nav-bar.png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+- Hero image and text
