@@ -332,6 +332,11 @@ footer {
     }
 }
 
+.content-section {
+    padding: 20px;
+    margin: 20px;
+}
+
 .intro {
     width: 80%;
     margin: 0 auto;
@@ -479,6 +484,15 @@ input[type=submit] {
         padding: 0;
     }
 
+    .left-col,
+    .right-col,
+    .middle-col {
+        width: 100%;
+        margin: 0 auto;
+        line-height: 20px;
+        text-align: center;
+    }
+
     .left-col h2,
     .middle-col h2,
     .right-col h2,
@@ -486,6 +500,12 @@ input[type=submit] {
     .middle-col p,
     .right-col p {
         padding-bottom: 20px;
+    }
+
+    .left-col p,
+    .middle-col p,
+    .right-col p {
+        text-align: left;
     }
 
     hr {
