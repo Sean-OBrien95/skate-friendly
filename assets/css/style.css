@@ -360,6 +360,10 @@ footer {
     padding-top: 20px;
 }
 
+.intro h3 {
+    font-size: 200%;
+}
+
 /* contact page */
 
 /* zoom effect when loading home page */
