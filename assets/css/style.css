@@ -577,7 +577,7 @@ input[type=submit] {
 
 @media screen and (max-width: 700px) {
     #all-about {
-        height: 650px;
+        height: 550px;
     }
 
     #bubble {
@@ -589,12 +589,16 @@ input[type=submit] {
 
 @media screen and (max-width: 600px) {
     #all-about {
-        height: 750px;
+        height: 600px;
     }
 
     .intro {
         height: 200px;
         padding-bottom: 5px;
+    }
+
+    .intro h1 {
+        line-height: 40px;
     }
 
     #bubble {
@@ -606,7 +610,7 @@ input[type=submit] {
 
 @media screen and (max-width: 480px) {
     #all-about {
-        height: 850px;
+        height: 650px;
     }
 
     #menu li {
@@ -627,14 +631,14 @@ input[type=submit] {
 
 @media screen and (max-width: 436px) {
     #all-about {
-        height: 800px;
+        height: 700px;
     }
 
     .intro {
-        padding-top: 10px;
+        height: 250px;
     }
 
-    .intro p {
-        margin-bottom: 20px;
-    }
+    /* .intro h2 {
+        padding-top: 25px;
+    } */
 }
