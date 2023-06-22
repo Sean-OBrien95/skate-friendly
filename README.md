@@ -10,9 +10,9 @@ In this section I will be covering the various features I have implemented, who 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-## Colour Scheme
+### Colour Scheme
 
-
+The colour scheme that I have used for this project is #BDE1EF a pastel blue that I thought fitted the imagery and general skater aesthetic, #999999 a grey colour which I opted for as I thought the black would look too harsh with pastel colours, and a standard white for background. I also chose this scheme as it is clearly readable. In the early stages the highlighted colour was originally green, but decided the light blue fitted the overall design better,
 
 ### Navigation Bar
 
@@ -25,4 +25,6 @@ This was created to help the user flow of the website and allow the user to jump
 
 - Hero image and text
 
-The hero image was designed to make the introduction the website instantly recognisable. The image is pair of skates with a brief description of what the page is about, so that the user does not question the purpose of the website
+The hero image was designed to make the introduction the website instantly recognisable. The image is pair of skates with a brief description of what the page is about, so that the user does not question the purpose of the website.
+
+![Photo of just the navigation bar](images/main-photo-demo.png)
