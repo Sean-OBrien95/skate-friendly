@@ -140,7 +140,7 @@ The colour scheme that I have used for this project is #BDE1EF a pastel blue tha
 
 ![Photo of 404 error page](images/404-image.png)
 
-# Testing
+### Testing
 
 - Ran html through W3C validator, have gotten back no errors but have gotten back 'warnings'. These warning are due to use of h1 elements in parts of the page that are not the very top. Due to time constraints, I am not able to change this right away as there is a lot of styling applied. If I were to re do the project, I would keep this in mind for future
 
@@ -150,4 +150,20 @@ The colour scheme that I have used for this project is #BDE1EF a pastel blue tha
 
 * A bug I have left uncorrected is on the contact page. The styling shows shadowing on the desktop version but when I checked on the mobile this effect does not appear. I have tried to address this by increasing the shadow effect and this has not worked. Due to time constraints I was not able to find an alternative but I will update in future to something that is compatible with ios
 
-* Another bug left uncorrected was the performance of the hom page on mobile and the performace of trick page on desktop. I researched how to fix this and came across lazy loading. This solution looked like it would fix the issue how ever it would require JavaScript and I wanted to stick to html and css for this project.
+* Another bug left uncorrected was the performance of the pages on mobile screens. I researched how to fix this and came across lazy loading. This solution looked like it would fix the issue how ever it would require JavaScript and I wanted to stick to html and css for this project.
+
+### Lighthouse Testing
+
+![Photo of 404 error page](images/home-desktop.png)
+![Photo of 404 error page](images/home-mobile.png)
+![Photo of 404 error page](images/tricks-desktop.png)
+![Photo of 404 error page](images/tricks-mobile.png)
+![Photo of 404 error page](images/faq-desktop.png)
+![Photo of 404 error page](images/faq-mobile.png)
+![Photo of 404 error page](images/contact-desktop.png)
+![Photo of 404 error page](images/contact-mobile.png)
+
+### Deployment
+
+- This was deployed in Github, I had done this by going to the seeting of the project, going down to pages in the sidebar, selecting the main branch, and deploying.
+- the link to view this is here: https://sean-obrien95.github.io/skate-friendly/
