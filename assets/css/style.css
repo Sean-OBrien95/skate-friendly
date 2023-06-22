@@ -633,6 +633,6 @@ input[type=submit] {
 
 @media screen and (max-width: 436px) {
     #all-about {
-        height: 1000px;
+        height: 800px;
     }
 }
