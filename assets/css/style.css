@@ -15,7 +15,8 @@ body {
 /* heading and logo */
 
 h1,
-h2 {
+h2,
+h3 {
     color: #BDE1EF;
     font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
@@ -133,10 +134,14 @@ header a {
     height: 300px;
 }
 
-#all-about h1 {
+#all-about h2 {
     text-align: center;
     font-size: 300%;
     margin-top: 15px;
+}
+
+#all-about h3 {
+    font-size: 150%;
 }
 
 .left-head {
@@ -228,7 +233,8 @@ hr {
     overflow: hidden;
 }
 
-#meetup h2 {
+#meetup h2,
+#meetup h3 {
     color: #fff;
 }
 
