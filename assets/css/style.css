@@ -78,7 +78,7 @@ header a {
 .photo-style {
     height: 600px;
     width: 100%;
-    background-size: fill;
+    background-size: cover;
     background-position: center;
 }
 
@@ -312,25 +312,26 @@ footer {
     background: url("../images/faq-image.webp") no-repeat;
     height: 600px;
     width: 100%;
-    background-size: fill;
+    background-size: cover;
     background-position: center;
 
     /* zoom effect when loading home page */
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
 
-    /* animation zoom */
-    @keyframes hero-zoom {
-        from {
-            transform: scale(1);
-        }
+/* animation zoom */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
 
-        to {
-            transform: scale(1.1);
-        }
+    to {
+        transform: scale(1.1);
     }
 }
+
 
 .content-section {
     padding: 0 20px;
@@ -360,23 +361,24 @@ footer {
     height: 600px;
     width: 100%;
     background: url("../images/contact-photo.webp") no-repeat;
-    background-size: fill;
+    background-size: cover;
     background-position: center;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
 
-    /* animation zoom */
-    @keyframes hero-zoom {
-        from {
-            transform: scale(1);
-        }
+/* animation zoom */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
 
-        to {
-            transform: scale(1.1);
-        }
+    to {
+        transform: scale(1.1);
     }
 }
+
 
 #sign-up {
     display: flex;
@@ -631,7 +633,7 @@ input[type=submit] {
 
 @media screen and (max-width: 436px) {
     #all-about {
-        height: 775px;
+        height: 850px;
     }
 
     .intro {
