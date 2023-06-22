@@ -631,7 +631,7 @@ input[type=submit] {
 
 @media screen and (max-width: 436px) {
     #all-about {
-        height: 725px;
+        height: 750px;
     }
 
     .intro {

@@ -10,6 +10,10 @@ In this section I will be covering the various features I have implemented, who 
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
+## Colour Scheme
+
+
+
 ### Navigation Bar
 
 - The navigation bar and logo
@@ -20,3 +24,5 @@ This was created to help the user flow of the website and allow the user to jump
 ![Photo of just the navigation bar](images/nav-bar.png)
 
 - Hero image and text
+
+The hero image was designed to make the introduction the website instantly recognisable. The image is pair of skates with a brief description of what the page is about, so that the user does not question the purpose of the website
