@@ -597,12 +597,6 @@ input[type=submit] {
         padding-bottom: 5px;
     }
 
-    .intro h1 {
-        height: 50px;
-        line-height: 50px;
-        margin-bottom: 50px
-    }
-
     #bubble {
         margin-top: 50px;
     }
@@ -634,5 +628,13 @@ input[type=submit] {
 @media screen and (max-width: 436px) {
     #all-about {
         height: 800px;
+    }
+
+    .intro {
+        padding-top: 10px;
+    }
+
+    .intro p {
+        margin-bottom: 20px;
     }
 }
