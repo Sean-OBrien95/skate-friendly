@@ -28,7 +28,7 @@ I had decided to keep logo and nav bar at the top of each page and the footer at
 
 The colour scheme that I have used for this project is #BDE1EF a pastel blue that I thought fitted the imagery and general skater aesthetic, #999999 a grey colour which I opted for as I thought the black would look too harsh with pastel colours, and a standard white for background. I also chose this scheme as it is clearly readable. In the early stages the highlighted colour was originally green, but decided the light blue fitted the overall design better.
 
-<img src="images/colour-scheme.png" alt="Photo of colour scheme used through project">
+<img src="assets/images/colour-scheme.png" alt="Photo of colour scheme used through project">
 
 # Features
 
@@ -68,7 +68,7 @@ In this section, you should go over the different parts of your project, and des
 * This was created to help the user flow of the website and allow the user to jump between each section at will without having to rely on back commands from the browser. The logo also acts as a home button if the user would like to use that.
 * When on a page, the nav bar will have an underline to show the user which specific page they are on. When hovering over a new page the colour will also change to the baby blue contrast colour that matches the pages theme.
 
-<img src="images/nav-bar.png" alt="Photo of just the navigation bar">
+<img src="assets/images/nav-bar.png" alt="Photo of just the navigation bar">
 
 # Hero Image and text
 
@@ -78,7 +78,7 @@ In this section, you should go over the different parts of your project, and des
 * The image is pair of skates with a brief description of what the page is about, so that the user does not question the purpose of the website.
 * the image also has a zoom in animation for style.
 
-<img src="images/main-photo-demo.png" alt="Photo of just the landing image and overlay text">
+<img src="assets/images/main-photo-demo.png" alt="Photo of just the landing image and overlay text">
 
 # About Section
 
@@ -87,7 +87,7 @@ In this section, you should go over the different parts of your project, and des
 * This is the first piece of information that will be displayed under the landing image. This section is broken up into 3 smaller sections aligned horizontally to that will explain why the group exists, and some of the benefits of skating.
 * This clearly shows the user what the group can offer and why they might be interested in joining.
 
-<img src="images/about-image.png" alt="Photo of just the about section">
+<img src="assets/images/about-image.png" alt="Photo of just the about section">
 
 # Meetup Section
 
@@ -96,7 +96,7 @@ In this section, you should go over the different parts of your project, and des
 * This section is intended to show the user the location, times, and days of our meetups.
 * They have been designed to have a bakground image that displays the type of environment that they will be skating in. This was chosen as I felt it would be visually appealing and make the design more distinct.
 
-<img src="images/meetup-demo.png" alt="Photo of just meetup section">
+<img src="assets/images/meetup-demo.png" alt="Photo of just meetup section">
 
 # Footer
 
@@ -104,7 +104,7 @@ In this section, you should go over the different parts of your project, and des
 
 * The footer section will be appearing on all the pages. This has been designed with a minimal approach, using links that will take you to social media pages. I have not created social media pages for each of these so the link will guide to the home page of each website.
 
-<img src="images/footer-demo.png" alt="Photo of just footer section">
+<img src="assets/images/footer-demo.png" alt="Photo of just footer section">
 
 # Tricks Image
 
@@ -113,7 +113,7 @@ In this section, you should go over the different parts of your project, and des
 * The intro to the tricks page is a new image of a pair of skates.
 * The zoom effect has also been applied here.
 
-<img src="images/tricks-demo-image.png" alt="Photo of tricks main image">
+<img src="assets/images/tricks-demo-image.png" alt="Photo of tricks main image">
 
 # Tricks Page Content
 
@@ -123,7 +123,7 @@ In this section, you should go over the different parts of your project, and des
 * Following this are 3 seperate sections describing different trciks as well as having a video underneath them to act as a tutorial.
 * None of these videos play automatically and also have a volume control slider.
 
-<img src="images/tricks-vids-demo.png" alt="Photo of content on tricks page">
+<img src="assets/images/tricks-vids-demo.png" alt="Photo of content on tricks page">
 
 # FAQ Page Photo
 
@@ -132,7 +132,7 @@ In this section, you should go over the different parts of your project, and des
 - Similar to the other images, I felt this image captured the energy of the website.
 - This also has a zoom effect applied.
 
-<img src="images/faq-demo-image.png" alt="Photo of faq main image">
+<img src="assets/images/faq-demo-image.png" alt="Photo of faq main image">
 
 # FAQ Content
 
@@ -143,25 +143,25 @@ In this section, you should go over the different parts of your project, and des
 
 * In this section there are 3 column sections similar in design to the home page to break up the information in an easy digestible way for the user.
 
-<img src="images/faq-content.png" alt="Photo of faq content">
+<img src="assets/images/faq-content.png" alt="Photo of faq content">
 
 - Safety
 
 - This section was designed to explain to users best safety practice, along with including a link that open in another page to buy safety gear.
 
-<img src="images/safety-content.png" alt="Photo of safety content">
+<img src="assets/images/safety-content.png" alt="Photo of safety content">
 
 - Equipment content
 
 - This section goes over the various equipment needs of a new skater such as skates, wheels, and accessories.
 
-<img src="images/equipment-content.png" alt="Photo of equipment content">
+<img src="assets/images/equipment-content.png" alt="Photo of equipment content">
 
 # Contact Page
 
 - Main image for page, this image has a smiling woman, I chose this as it is inviting and would suit a contact page. This also features the zoom effect.
 
-<img src="images/contact-demo-photo.png" alt="Photo of main contact image">
+<img src="assets/images/contact-demo-photo.png" alt="Photo of main contact image">
 
 - The contact form was designed to take the users name, surname, and email.
 - Styling this I decided to use a clear border and have the border be visible through a shadow effect, I chose this as I felt it was a more unique design.
@@ -172,19 +172,19 @@ In this section, you should go over the different parts of your project, and des
 
 * Once you complete the form and submit, you are redirected to a thank you site.
 
-<img src="images/contact-form.png" alt="Photo of submission form">
+<img src="assets/images/contact-form.png" alt="Photo of submission form">
 
 # Thank you page
 
 - The thank you page is a redirect from the submission form, it is a simple page displaying a thank you message that will redirect you back tot he home page after 10 seconds.
 
-<img src="images/thank-you.png" alt="Photo of thank you page">
+<img src="assets/images/thank-you.png" alt="Photo of thank you page">
 
 # 404 Error page
 
 - A simple 404 page with basic styling to tells the user they have ended up on a page that doesn't exist. It has an explanation and reedirects back to the home page after 5 seconds.
 
-<img src="images/404-image.png" alt="Photo of 404 error page">
+<img src="assets/images/404-image.png" alt="Photo of 404 error page">
 
 # Testing
 
@@ -200,14 +200,14 @@ In this section, you should go over the different parts of your project, and des
 
 # Lighthouse Testing
 
-<img src="images/home-desktop.png" alt="image of lighthouse for homepage on desktop">
-<img src="images/home-mobile.png" alt="image of lighthouse for homepage on mobile">
-<img src="images/tricks-desktop.png" alt="image of lighthouse for tricks page on desktop">
-<img src="images/tricks-mobile.png" alt="image of lighthouse for tricks page on mobile">
-<img src="images/faq-desktop.png" alt="image of lighthouse for faq page on desktop">
-<img src="images/faq-mobile.png" alt="image of lighthouse for faq page on mobile">
-<img src="images/contact-desktop.png" alt="image of lighthouse for contact page on desktop">
-<img src="images/contact-mobile.png" alt="image of lighthouse for contact page on mobile">
+<img src="assets/images/home-desktop.png" alt="image of lighthouse for homepage on desktop">
+<img src="assets/images/home-mobile.png" alt="image of lighthouse for homepage on mobile">
+<img src="assets/images/tricks-desktop.png" alt="image of lighthouse for tricks page on desktop">
+<img src="assets/images/tricks-mobile.png" alt="image of lighthouse for tricks page on mobile">
+<img src="assets/images/faq-desktop.png" alt="image of lighthouse for faq page on desktop">
+<img src="assets/images/faq-mobile.png" alt="image of lighthouse for faq page on mobile">
+<img src="assets/images/contact-desktop.png" alt="image of lighthouse for contact page on desktop">
+<img src="assets/images/contact-mobile.png" alt="image of lighthouse for contact page on mobile">
 
 # Deployment
 
