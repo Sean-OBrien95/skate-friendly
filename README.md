@@ -28,7 +28,7 @@ I had decided to keep logo and nav bar at the top of each page and the footer at
 
 The colour scheme that I have used for this project is #BDE1EF a pastel blue that I thought fitted the imagery and general skater aesthetic, #999999 a grey colour which I opted for as I thought the black would look too harsh with pastel colours, and a standard white for background. I also chose this scheme as it is clearly readable. In the early stages the highlighted colour was originally green, but decided the light blue fitted the overall design better.
 
-<img src="images/nav-bar.png" alt="Photo of just the navigation bar">
+<img src="images/colour-scheme.png" alt="Photo of colour scheme used through project">
 
 # Features
 
