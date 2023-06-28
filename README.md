@@ -60,6 +60,18 @@ In this section, you should go over the different parts of your project, and des
 - User Story 7: User contact
 - As a user, I want to be able to get in contact with the group for any additional enquiries I may have.
 
+# Wireframes
+
+Please see attached wireframes for the 4 main pages. Some of the pages design do not change when sceled down to tablet or down to mobile, so less wireframes have been provided for these pages.
+
+<img src="assets/images/wireframe-home-desk.png" alt="Wireframe of home page on desktop">
+<img src="assets/images/wireframe-home-tablet.png" alt="Wireframe of home page on tablet">
+<img src="assets/images/wireframe-home-mobile.png" alt="Wireframe of home page on mobile">
+<img src="assets/images/wireframe-tricks.png" alt="Wireframe of tricks page on desktop, tablet, and mobile">
+<img src="assets/images/wireframe-faq-desk.png" alt="Wireframe faq page on desktop">
+<img src="assets/images/wireframe-faq-tablet.png" alt="Wireframe of faq page on tablet and mobile">
+<img src="assets/images/wireframe-contact.png" alt="Wireframe of contact page on desktop, tablet, and mobile">
+
 # Navigation Bar
 
 - The navigation bar and logo
