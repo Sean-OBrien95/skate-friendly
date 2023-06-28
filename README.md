@@ -233,13 +233,29 @@ The following browsers were used during testing:
 - Google Chrome
 - Safari
 
-<div class="grid-container">
-  <div class="grid-item">Feature</div>
-  <div class="grid-item">Expected Outcome</div>
-  <div class="grid-item">Outcome</div>
-  <div class="grid-item">Result</div>
-  <div class="grid-item">Pass</div>
-</div>
+<table>
+        <tr>
+            <th>Feature</th>
+            <th>Expected Outcome</th>
+            <th>Test</th>
+            <th>Result<th>
+            <th>Pass/Fail<th>
+        </tr>
+        <tr>
+            <td>Logo</td>
+            <td>When clicking logo takes back to home page</td>
+            <td>Click logo</td>
+            <td>Takes back to home page</td>
+            <td>pass</td>
+        </tr>
+        <tr>
+            <td>Nav bar highlight</td>
+            <td>hovered page on nav bar will change colour</td>
+            <td>hover over nav bar</td>
+            <td>changed colour</td>
+            <td>pass</td>
+        </tr>
+    </table>
 
 # Deployment
 

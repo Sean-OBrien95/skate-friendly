@@ -646,16 +646,3 @@ input[type=submit] {
         height: 250px;
     }
 }
-
-/* Grid on read.me page */
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 5fr);
-    grid-gap: 10px;
-}
-
-.grid-item {
-    background-color: #191717;
-    padding: 20px;
-}
