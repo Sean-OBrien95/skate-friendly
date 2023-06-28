@@ -651,11 +651,11 @@ input[type=submit] {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 5fr);
     grid-gap: 10px;
 }
 
 .grid-item {
-    background-color: #f2f2f2;
+    background-color: #191717;
     padding: 20px;
 }
