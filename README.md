@@ -233,29 +233,198 @@ The following browsers were used during testing:
 - Google Chrome
 - Safari
 
+All features that are on multiple pages (eg. Logo, Nav bar, Social media links) will only show up as tested in the first page they appear on, but have been tested on all pages.
+
+## Home page testing
+
 <table>
-        <tr>
-            <th>Feature</th>
-            <th>Expected Outcome</th>
-            <th>Test</th>
-            <th>Result<th>
-            <th>Pass/Fail<th>
-        </tr>
-        <tr>
-            <td>Logo</td>
-            <td>When clicking logo takes back to home page</td>
-            <td>Click logo</td>
-            <td>Takes back to home page</td>
-            <td>pass</td>
-        </tr>
-        <tr>
-            <td>Nav bar highlight</td>
-            <td>hovered page on nav bar will change colour</td>
-            <td>hover over nav bar</td>
-            <td>changed colour</td>
-            <td>pass</td>
-        </tr>
-    </table>
+    <tr>
+        <th>Feature</th>
+        <th>Expected Outcome</th>
+        <th>Test</th>
+        <th>Result</th>
+        <th>Pass/Fail</th>
+    </tr>
+    <tr>
+        <td>Logo</td>
+        <td>When clicking logo takes back to home page</td>
+        <td>Click logo</td>
+        <td>Takes back to home page</td>
+        <td>pass</td>
+    </tr>
+    <tr>
+        <td>Nav bar highlight</td>
+        <td>Hovered page on nav bar will change colour</td>
+        <td>Hover over nav bar</td>
+        <td>Changed colour</td>
+        <td>pass</td>
+    </tr>
+    <tr>
+        <td>Hero image animation</td>
+        <td>Hero image will have a zoom effect on all screen sizes</td>
+        <td>Reloaded page on different screen sizes</td>
+        <td>Animation occured</td>
+        <td>pass</td>
+    </tr>
+    <tr>
+        <td>Social media links</td>
+        <td>All social media links on footer take you to new tab of the indicated social media</td>
+        <td>Click each link</td>
+        <td>Social media opened in seperate tabs</td>
+        <td>pass</td>
+    </tr>
+</table>
+
+## Tricks Page Testing
+
+<table>
+    <tr>
+        <th>Feature</th>
+        <th>Expected Outcome</th>
+        <th>Test</th>
+        <th>Result</th>
+        <th>Pass/Fail</th>
+    </tr>
+    <tr>
+        <td>Auto play</td>
+        <td>Videos do not autoplay when page is loaded</td>
+        <td>Reload page and check videos</td>
+        <td>Does not autoplay</td>
+        <td>pass</td>
+    </tr>
+    <tr>
+        <td>Volume tab</td>
+        <td>Videos will allow user to control volume once clicked</td>
+        <td>Start video and mute volume with a click or control with cursor</td>
+        <td>Volume mutes or goes up/down as intended</td>
+        <td>pass</td>
+    </tr>
+    <tr>
+        <td>Pause button</td>
+        <td>Video will be able to be paused at anytime</td>
+        <td>Click center of video and button in bottom left corner</td>
+        <td>Video paused</td>
+        <td>pass</td>
+    </tr>
+    <tr>
+        <td>Full screen</td>
+        <td>Videos will allow you to go full screen</td>
+        <td>Click full screen icon in bottom right corner</td>
+        <td>Video appeared full screen</td>
+        <td>pass</td>
+    </tr>
+</table>
+
+## FAQ Page
+
+<table>
+    <tr>
+        <th>Feature</th>
+        <th>Expected Outcome</th>
+        <th>Test</th>
+        <th>Result</th>
+        <th>Pass/Fail</th>
+    </tr>
+    <tr>
+        <td>Link to contact page</td>
+        <td>When click on the our Contact Page link will take you to contact form in same tab</td>
+        <td>Click on our Contact Page link</td>
+        <td>Opens contact page in same link</td>
+        <td>pass</td>
+    </tr>
+    <tr>
+        <td>Links to recommended products</td>
+        <td>When clicking on any of the recommended products linked will take you to a new tab with products</td>
+        <td>Click on all 4 of the different links</td>
+        <td>Opens all links in new page with the correct product displayed</td>
+        <td>pass</td>
+    </tr>
+</table>
+
+## Contact Page
+
+<table>
+    <tr>
+        <th>Feature</th>
+        <th>Expected Outcome</th>
+        <th>Test</th>
+        <th>Result</th>
+        <th>Pass/Fail</th>
+    </tr>
+    <tr>
+        <td>Form must be complete before submitting</td>
+        <td>Form does not allow you to proceed unless every section complete</td>
+        <td>Click submit with some area not complete</td>
+        <td>Does not allow you to continue</td>
+        <td>pass</td>
+    </tr>
+    <tr>
+        <td>Email tab</td>
+        <td>Email section will not proceed unless an email address is entered</td>
+        <td>Click on submit with my full name in the email tab</td>
+        <td>Email tab asks me to put in an email address before proceeding</td>
+        <td>pass</td>
+    </tr>
+    <tr>
+        <td>Radio button</td>
+        <td>Only one radio button option can be selected at a time</td>
+        <td>Click one radio button and then click each one after, tried this with every combonation of button</td>
+        <td>Does not allow me to have more than one clicked</td>
+        <td>pass</td>
+    </tr>
+    <tr>
+        <td>Submit colour change</td>
+        <td>Submit button changed colour when hovered over</td>
+        <td>Hover over submit button</td>
+        <td>Colour of button changes</td>
+        <td>pass</td>
+    </tr>
+    <tr>
+        <td>Submit button cursor</td>
+        <td>Submit button changes cursor when hovered over</td>
+        <td>Hover over submit button</td>
+        <td>Cursor changes</td>
+        <td>pass</td>
+    </tr>
+</table>
+
+## Thank You Page
+
+<table>
+    <tr>
+        <th>Feature</th>
+        <th>Expected Outcome</th>
+        <th>Test</th>
+        <th>Result</th>
+        <th>Pass/Fail</th>
+    </tr>
+    <tr>
+        <td>Redirect to home page</td>
+        <td>When left on page for 10 seconds, you will be redirected to home page</td>
+        <td>Load page and wait 10 seconds</td>
+        <td>Redirected to home page</td>
+        <td>pass</td>
+    </tr>
+</table>
+
+## 404 Error Page
+
+<table>
+    <tr>
+        <th>Feature</th>
+        <th>Expected Outcome</th>
+        <th>Test</th>
+        <th>Result</th>
+        <th>Pass/Fail</th>
+    </tr>
+    <tr>
+        <td>Redirect to home page</td>
+        <td>When left on page for 5 seconds, you will be redirected to home page</td>
+        <td>Load page and wait 5 seconds</td>
+        <td>Redirected to home page</td>
+        <td>pass</td>
+    </tr>
+</table>
 
 # Deployment
 
