@@ -209,6 +209,38 @@ In this section, you should go over the different parts of your project, and des
 <img src="assets/images/contact-desktop.png" alt="image of lighthouse for contact page on desktop">
 <img src="assets/images/contact-mobile.png" alt="image of lighthouse for contact page on mobile">
 
+# Full Testing
+
+The following devices were used during testing:
+
+Desktop:
+
+- Acer Aspire 5 17" screen
+
+Tablet:
+
+- iPad Air
+- iPad Mini
+
+Mobile Devices:
+
+- iPhone 12
+- iPhone 12 Pro
+- Samsung Galaxy S8+
+
+The following browsers were used during testing:
+
+- Google Chrome
+- Safari
+
+<div class="grid-container">
+  <div class="grid-item">Feature</div>
+  <div class="grid-item">Expected Outcome</div>
+  <div class="grid-item">Outcome</div>
+  <div class="grid-item">Result</div>
+  <div class="grid-item">Pass</div>
+</div>
+
 # Deployment
 
 - This was deployed in Github, I had done this by going to the seeting of the project, going down to pages in the sidebar, selecting the main branch, and deploying.
